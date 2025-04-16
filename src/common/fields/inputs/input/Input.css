@@ -1,0 +1,27 @@
+.main-input {
+  width: 100%;
+  border-radius: 6px;
+  border: 0;
+  padding: 10px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  background: linear-gradient(to bottom, #639edb, #0668cf) no-repeat;
+  transition: background 0.3s ease;
+  color: #ffffff;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.main-input-error {
+  background: linear-gradient(to bottom, #db6363, #cf0606) no-repeat;
+}
+
+.main-input-helper-text {
+  color: #db6363;
+}
+
+.main-input::placeholder {
+  color: #ffffff;
+}
