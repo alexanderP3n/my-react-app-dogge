@@ -24,10 +24,9 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  width: 100%;
   background: linear-gradient(to bottom, #639edb, #0668cf) no-repeat;
   font-family: sans-serif;
   background-size: 100%;
