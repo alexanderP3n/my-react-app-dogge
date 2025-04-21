@@ -1,9 +1,12 @@
+.input_container {
+  position: relative;
+  padding-bottom: 5px;
+}
 .main_input {
   width: 100%;
   border-radius: 6px;
   border: 1px solid lightgrey;
-  padding: 10px;
-  padding: 15px;
+  padding: 10px 40px 10px 10px;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -19,8 +22,22 @@
 
 .main_input_helper_text {
   color: #db6363;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 46px;
 }
 
 .main_input::placeholder {
   color: #213547;
+}
+
+.icon {
+  position: absolute;
+  transform: translateY(-42%);
+  top: 42%;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
